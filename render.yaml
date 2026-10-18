@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: geminigpt-backend
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
