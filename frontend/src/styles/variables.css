@@ -1,0 +1,71 @@
+:root {
+  /* Obsidian Dark Theme (Default) */
+  --bg-primary: #131314;
+  --bg-secondary: #1e1f20;
+  --bg-tertiary: #282a2c;
+  --bg-elevated: #2d2f31;
+  --bg-input: #1e1f20;
+  --bg-glass: rgba(30, 31, 32, 0.85);
+
+  --text-primary: #e3e3e3;
+  --text-secondary: #c4c7c5;
+  --text-muted: #8e918f;
+
+  --border-color: #333537;
+  --border-light: rgba(255, 255, 255, 0.08);
+
+  --accent-blue: #a8c7fa;
+  --accent-blue-gradient: linear-gradient(135deg, #4285f4, #9b72cf, #d96570);
+  --accent-purple: #c58af9;
+  --accent-glow: rgba(66, 133, 244, 0.25);
+
+  --user-bubble-bg: #2b2d30;
+  --model-bubble-bg: transparent;
+
+  --sidebar-width: 280px;
+  --sidebar-collapsed-width: 68px;
+  --header-height: 60px;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
+
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s cubic-bezier(0.2, 0, 0, 1);
+}
+
+body.light-theme {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0f4f9;
+  --bg-tertiary: #e1e7ee;
+  --bg-elevated: #ffffff;
+  --bg-input: #f0f4f9;
+  --bg-glass: rgba(255, 255, 255, 0.9);
+
+  --text-primary: #1f1f1f;
+  --text-secondary: #444746;
+  --text-muted: #727775;
+
+  --border-color: #e3e3e3;
+  --border-light: rgba(0, 0, 0, 0.08);
+
+  --accent-blue: #0b57d0;
+  --accent-blue-gradient: linear-gradient(135deg, #1a73e8, #8430ce, #d93025);
+  --accent-purple: #7c3aed;
+  --accent-glow: rgba(26, 115, 232, 0.15);
+
+  --user-bubble-bg: #e9eef6;
+  --model-bubble-bg: transparent;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.15);
+}
